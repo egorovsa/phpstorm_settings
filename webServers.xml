@@ -17,16 +17,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="ebe5e4c3-8ae4-4f16-b012-a1b6d28568db" name="unnnnnn" url="http://egorov.pw">
-        <fileTransfer host="egorov.pw" port="22" rootFolder="/var/www/egorovsa/data/www/uniquely.shop/app" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="85113c07-dfd5-4a31-88c0-afe1e67fd020" name="UNIQU-SITE" url="https://uniquely.ru">
-        <fileTransfer host="egorov.pw" port="22" rootFolder="/var/www/egorovsa/data/www/uniquely.ru/app" accessType="SFTP">
+      <webServer id="b39929a4-aa5b-4acb-8e9b-4ec501be4491" name="INTERMAG" url="http://intermag.egorov.pw/">
+        <fileTransfer host="egorov.pw" port="22" rootFolder="/var/www/egorovsa/data/www/intermag.egorov.pw/app" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
