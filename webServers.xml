@@ -25,6 +25,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="929de904-4659-45d0-861a-cc1598f3bddf" name="EGOROV.PW INTERMAG" url="http://intermag.egorov.pw/admin">
+        <fileTransfer host="egorov.pw" port="22" rootFolder="/var/www/egorovsa/data/www/intermag.egorov.pw/app" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
