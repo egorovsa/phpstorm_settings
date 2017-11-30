@@ -41,6 +41,22 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="31097d88-4b8e-490f-b0d6-177cbd9ef307" name="UNISHOP" url="https://uniquely.shop">
+        <fileTransfer host="egorov.pw" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3cb4834d-7835-4ff0-8556-30b04c8c646d" name="UNISHOP1" url="http://uniquely.shop">
+        <fileTransfer host="egorov.pw" port="22" rootFolder="/var/www/egorovsa/data/www/uniquely.shop/app" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
