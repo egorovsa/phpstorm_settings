@@ -34,7 +34,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="0da00a2d-8422-4ed6-981b-671109f81444" name="KOVCHEG" url="http://kovcheg33.ru/">
-        <fileTransfer host="kovcheg33.ru" port="21" rootFolder="/www/kovcheg33.ru/app">
+        <fileTransfer host="kovcheg33.ru" port="21" rootFolder="/app">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
