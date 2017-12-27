@@ -34,11 +34,35 @@
         </fileTransfer>
       </webServer>
       <webServer id="0da00a2d-8422-4ed6-981b-671109f81444" name="KOVCHEG" url="http://kovcheg33.ru/">
-        <fileTransfer host="kovcheg33.ru" port="21">
+        <fileTransfer host="kovcheg33.ru" port="21" rootFolder="/app">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="31097d88-4b8e-490f-b0d6-177cbd9ef307" name="UNISHOP" url="https://uniquely.shop">
+        <fileTransfer host="egorov.pw" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3cb4834d-7835-4ff0-8556-30b04c8c646d" name="UNISHOP1" url="http://uniquely.shop">
+        <fileTransfer host="egorov.pw" port="22" rootFolder="/var/www/egorovsa/data/www/uniquely.shop/app" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c968f808-5290-4165-9cbc-fe4d9aee590b" name="INTERMAG_OLD" url="http://intermag33.ru">
+        <fileTransfer host="intermag33.ru" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
