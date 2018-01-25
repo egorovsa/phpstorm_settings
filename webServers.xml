@@ -66,7 +66,15 @@
         </fileTransfer>
       </webServer>
       <webServer id="20ac3c92-df88-4235-b495-f21e25137977" name="DATA.INTERMAG" url="http://data.intermag33.ru">
-        <fileTransfer host="data.intermag33.ru" port="22" rootFolder="/var/www/egorovsa/data/www/data.intermag33.ru/html/app" accessType="SFTP">
+        <fileTransfer host="data.intermag33.ru" port="22" rootFolder="/var/www/egorovsa/data/www/data.intermag33.ru/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3e96bb7d-db7e-4776-9cf3-3a8bd675193e" name="DATA.INTERMAG (1)" url="http://data.intermag33.ru">
+        <fileTransfer host="data.intermag33.ru" port="22" rootFolder="/var/www/egorovsa/data/www/data.intermag33.ru/html" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
