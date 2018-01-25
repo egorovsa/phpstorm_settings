@@ -81,6 +81,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="7819df85-0234-4626-8a86-a1d1a6bd1678" name="DEVDATA.INTERMAG" url="http://devdata.intermag33.ru">
+        <fileTransfer host="devdata.intermag33.ru" port="22" rootFolder="/var/www/egorovsa/data/www/devdata.intermag33.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
