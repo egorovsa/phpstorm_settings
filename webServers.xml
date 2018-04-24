@@ -89,6 +89,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="255354e3-e1ac-4484-9f6b-48f3989c4f8b" name="uniquely.ru" url="https://uniquely.ru">
+        <fileTransfer host="egorov.pw" port="22" rootFolder="/var/www/egorovsa/data/www/uniquely.ru/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
