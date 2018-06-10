@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7c1c08a9-e31f-4bd4-9343-85ba0ffd53a4" name="data.intermag33.ru" url="http://data.intermag33.ru">
+        <fileTransfer host="data.intermag33.ru" port="22" rootFolder="/var/www/egorovsa/data/www/data.intermag33.ru/html/app" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
