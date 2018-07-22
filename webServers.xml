@@ -9,6 +9,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="acc866a2-6ffa-43c7-b817-289b593c7d44" name="METALL" url="http://data.metallapriem.ru">
+        <fileTransfer host="egorov.pw" port="22" rootFolder="/var/www/egorovsa/data/www/data.metallapriem.ru/app" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
