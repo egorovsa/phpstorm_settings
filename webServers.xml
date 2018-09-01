@@ -17,6 +17,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="e223100e-a0e4-454e-9693-83d939a5417e" name="ftp.nebovsem.nichost.ru" url="http://nebovsem.ru">
+        <fileTransfer host="ssh.nebovsem.nichost.ru" port="22" rootFolder="/home/nebovsem/nebovsem.ru/docs/app" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
