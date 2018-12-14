@@ -41,6 +41,22 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="3d35e507-ce69-4713-aec4-0fdf5b26de91" name="kovcheg33" url="http://82.146.54.125">
+        <fileTransfer host="82.146.54.125" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0c98008f-5e7d-49b7-b97c-33c994d744a8" name="kovcheg" url="http://kovcheg33.ru">
+        <fileTransfer host="kovcheg33.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
