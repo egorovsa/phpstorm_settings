@@ -57,6 +57,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="d856866a-f9a1-4b8c-8373-b6ecead3cf96" name="ROCKET" url="http://rocketav.ftp.tools">
+        <fileTransfer host="rocketav.ftp.tools" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
